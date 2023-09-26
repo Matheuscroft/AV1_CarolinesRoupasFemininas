@@ -1,0 +1,39 @@
+body {
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: #D89B70;
+    color: black;
+    margin: 0;
+}
+
+.cabecalho {
+    padding: 10px 40px 10px 70px;
+    background-color: #F8F5FA;
+    border: 1px solid #000;
+    border-left: none;
+    border-right: none;
+}
+
+.cabecalho__menu {
+    display: flex;
+    gap: 80px;
+}
+
+.cabecalho__menu__link {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: gray;
+    text-decoration: none;
+}
+
+main {
+
+    height: 600px;
+}
+
+.rodape {
+    background-color: #F8F5FA;
+    padding: 24px;
+    text-align: center;
+}
